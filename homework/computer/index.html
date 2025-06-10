@@ -2,18 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>All computer Homeworks</title>
+  <title>📘 All Computer Homeworks</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { background: #0f172a; color: #fff; font-family: sans-serif; padding: 1rem; text-align: center; }
-    a { display: block; margin: 1rem; padding: 1rem; background: #1e40af; color: #fff; border-radius: 8px; text-decoration: none; box-shadow: 0 0 10px #38bdf8; }
-    a:hover { background: #1d4ed8; }
+    body {
+      background: #0f172a;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #38bdf8;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+      margin-bottom: 2rem;
+    }
+
+    .container {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      padding: 1rem;
+    }
+
+    a {
+      display: block;
+      padding: 1.2rem;
+      background: #1e40af;
+      color: #fff;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 0 12px #38bdf8;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    a:hover {
+      background: #1d4ed8;
+      transform: scale(1.02);
+    }
+
+    footer {
+      margin-top: 3rem;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
-  <h1>📚 computer Homeworks</h1>
-  <!-- <a href="2082-02-23/">📅 2082/02/23</a>
-  <a href="2082-02-26/">📅 2082/02/26</a> -->
- <br><br><br> <h1>NOT AVAILABLE NOW</h1><br>
+
+  <h1>📘 Computer Homeworks</h1>
+  <div class="subtitle">Here are all your study materials in one place 📂</div>
+
+  <div class="container">
+    <a href="complete_book.pdf">📖 Practice Book (All Chapters) ✅</a>
+    <a href="The Ultimate C Handbook.pdf">💻 The Ultimate C Handbook ✅</a>
+    <a href="Q-basic.pdf">🧮 Q-Basic Modular Programming ✅</a>
+  </div>
+
+  <footer>
+    Made with ❤️ by Prashant Pandey
+  </footer>
+
 </body>
 </html>

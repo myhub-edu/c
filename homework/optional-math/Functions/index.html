@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📄 Embedded PDF Viewer</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #0f172a;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      overflow: hidden;
+    }
+
+    .header {
+      background: #1e40af;
+      color: #ffffff;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      box-shadow: 0 2px 10px #38bdf8;
+    }
+
+    iframe {
+      width: 100%;
+      height: calc(100% - 70px); /* Adjust height to leave room for header */
+      border: none;
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+      }
+
+      iframe {
+        height: calc(100% - 60px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">📘 Functions</div>
+  
+  <iframe 
+    src="https://drive.google.com/file/d/1IYJUmDSCdYXNQsGtKjFx9RoF00PtgADD/preview" 
+    allow="autoplay">
+  </iframe>
+
+</body>
+</html>

@@ -149,3 +149,8 @@ footer {
   margin: 0 auto;
   display: block;
 }
+.subject-card.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
