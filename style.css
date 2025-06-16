@@ -154,3 +154,37 @@ footer {
   cursor: not-allowed;
   pointer-events: none;
 }
+.online-class {
+  margin: 2rem 0;
+  background-color: #1e293b;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0ea5e9;
+  text-align: center;
+}
+
+.online-class h2 {
+  font-size: 1.3rem;
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+}
+
+.online-class p {
+  color: #cbd5e1;
+  margin-bottom: 1rem;
+}
+
+.class-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #10b981;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+.class-btn:hover {
+  background: #059669;
+  transform: scale(1.05);
+}

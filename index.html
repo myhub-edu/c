@@ -1,5 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIT Smart Homework Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="description"
+    content="MIT School Homework Portal – Get daily subject-wise homework, smart study shorts, and helpful tips.">
+
+</head>
+
+<body>
+
+  <header>
+    <h1 id="header">📘 MIT School Homework Portal</h1>
+    <p>Your daily destination for all subject-wise homeworks & smart study videos!</p>
+  </header>
+  
+  <main>
+    <section class="intro">
+    <h2>What is this website?</h2>
+    <p>
+      This site helps students of MIT School Janakpur to get all daily homeworks quickly and easily.
+      After school, we upload homework photos by subject, sorted by Nepali date 📅.
+      You can also watch short, helpful study videos – facts, tips, tricks & more!
+    </p>
+    <a href="shorts.html" class="shorts-btn">🎬 Watch Study Shorts</a>
+  </section>
+    
+    <section class="subjects">
+      <h2>Select Subject 📚</h2>
+      <div class="subject-grid">
+        <a href="homework/math/" class="subject-card">➕ Math</a>
+        <a href="homework/english/" class="subject-card">📖 English</a>
+        <a href="homework/computer/" class="subject-card">💻 Computer</a>
+        <a href="homework/optional-math/" class="subject-card">📐 Optional Math</a>
+        <a href="homework/science/" class="subject-card">🔬 Science</a>
+        <a href="#" class="subject-card disabled">📐 TEN-SET Special (Coming Soon)</a>
+        
+      </div>
+    </section>
+    
+    <section class="online-class">
+      <h2>🎥 Join Online Class</h2>
+      <p>Start or join a live class with your subject teacher and classmates.</p>
+      <a href="/live_class/online-class.html" class="class-btn">🔗 Join Video Class</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>📍 Created by Prashant | MIT School Janakpur © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,9 +69,21 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <meta name="description" content="MIT School Homework Portal – Get daily subject-wise homework, smart study shorts, and helpful tips.">
+<style>
+  .subject-card.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 
+</style>
 </head>
 <body>
+<script>
+  if (localStorage.getItem("access_granted") !== "true") {
+    window.location.href = "password.html";
+  }
+</script>
 
   <header>
     <h1 id="header">📘 MIT School Homework Portal</h1>
@@ -36,7 +110,7 @@
         <a href="homework/optional-math/" class="subject-card">📐 Optional Math</a>
         <a href="homework/science/" class="subject-card">🔬 Science</a>
         <a href="#" class="subject-card disabled">📐 TEN-SET Special (Coming Soon)</a>
-
+        
       </div>
     </section>
   </main>
@@ -47,4 +121,4 @@
 
   <script src="script.js"></script>
 </body>
-</html>
+</html> -->
