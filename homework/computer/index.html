@@ -56,7 +56,11 @@
   </style>
 </head>
 <body>
-
+<script>
+  if (localStorage.getItem("access_granted") !== "true") {
+    window.location.href = "password.html";
+  }
+</script>
   <h1>📘 Computer Homeworks</h1>
   <div class="subtitle">Here are all your study materials in one place 📂</div>
 
