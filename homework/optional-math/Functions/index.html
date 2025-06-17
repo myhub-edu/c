@@ -43,6 +43,11 @@
   </style>
 </head>
 <body>
+<script>
+  if (localStorage.getItem("access_granted") !== "true") {
+    window.location.href = "https://myhub-edu.github.io/c/password.html";
+  }
+</script>
 
   <div class="header">📘 Functions</div>
   
