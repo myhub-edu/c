@@ -16,6 +16,12 @@
   </style>
 </head>
 <body>
+  <script>
+  if (localStorage.getItem("access_granted") !== "true") {
+    window.location.href = "https://myhub-edu.github.io/c/password.html";
+  }
+</script>
+
   <div class="video-container" id="jitsi-container"></div>
 
   <script src="https://meet.jit.si/external_api.js"></script>
