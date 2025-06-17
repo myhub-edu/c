@@ -49,7 +49,11 @@
   </style>
 </head>
 <body>
-
+<script>
+  if (localStorage.getItem("access_granted") !== "true") {
+    window.location.href = "password.html";
+  }
+</script>
   <h1>📘 English Hub – All Units</h1>
 
   <a href="unit-1/" class="unit-link">📖 Unit 1: Current Affairs & Issues</a>
