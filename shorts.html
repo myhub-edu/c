@@ -7,6 +7,11 @@
   <link rel="stylesheet" href="shorts.css" />
 </head>
 <body>
+<script>
+  if (localStorage.getItem("access_granted") !== "true") {
+    window.location.href = "https://myhub-edu.github.io/c/password.html";
+  }
+</script>
 
   <header>
     <h1>📚 Study Shorts</h1>
