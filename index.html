@@ -11,6 +11,11 @@
     content="MIT School Homework Portal – Get daily subject-wise homework, smart study shorts, and helpful tips.">
 
 </head>
+<script>
+  if (localStorage.getItem("access_granted") !== "true") {
+    window.location.href = "password.html";
+  }
+</script>
 
 <body>
 
